@@ -33,3 +33,43 @@ Tiny Shell (tsh) is a minimal shell implementation designed to support basic she
 ## Build and Usage Instructions
 
 ### Prerequisites
+ - GCC or any C compiler
+ - Linux or macOS environment (not tested on Windows)
+ - Make utility
+
+### Build the Shell
+```bash
+make
+```
+
+### Run the Shell
+```bash
+./tsh
+```
+
+## How to Use
+1. Launch the Shell: Run `./tsh` to start the Tiny Shell. The shell prompt will appear as `tsh>`.
+2. Execute Commands:
+  - To run a command in the foreground:
+    ```bash
+    tsh> ls -l
+    ```
+  - To run a command in the background:
+    ```bash
+    tsh> sleep 10 &
+    ```
+3. Built-in Commands:
+  - Quit the Shell:
+    ```bash
+    tsh> exit
+    ```
+
+## Contributing
+Contributions are welcome! Feel free to submit issues or pull requests to improve this solver.
+
+## License
+This project is licensed under the MIT License. See `LICENSE` file for details.
+
+
+
+
