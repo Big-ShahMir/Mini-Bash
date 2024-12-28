@@ -20,15 +20,18 @@ Tiny Shell (tsh) is a minimal shell implementation designed to support basic she
 
 ---
 
-## Directory Structure
+## File Information
+### The remaining files are used to test your shell
+sdriver.pl	# The trace-driven shell driver
+trace*.txt	# The 17 trace files that control the shell driver
+tshref.out 	# Example output of the reference shell on all 17 traces
 
-```plaintext
-.
-├── Makefile        # Build instructions for the Tiny Shell
-├── tsh.c           # Source code for Tiny Shell
-├── README.md       # Project documentation
-└── examples/       # Example scripts to test the shell
-```
+### Little C programs that are called by the trace files
+myspin.c	# Takes argument <n> and spins for <n> seconds
+mysplit.c	# Forks a child that spins for <n> seconds
+mystop.c        # Spins for <n> seconds and sends SIGTSTP to itself
+myint.c         # Spins for <n> seconds and sends SIGINT to itself
+
 
 ## Build and Usage Instructions
 
