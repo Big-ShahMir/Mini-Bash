@@ -1,6 +1,6 @@
 /*  
- * usage: myint <n>
- * Sleeps for <n> seconds and sends SIGINT to itself.
+ * usage: myint <x>
+ * Sleeps for <x> seconds and sends SIGINT to itself.
  *
  */
 #include <stdio.h>
@@ -15,7 +15,7 @@ int main(int argc, char **argv) {
     pid_t pid; 
 
     if (argc != 2) {
-        fprintf(stderr, "Usage 1: %s <n>\n", argv[0]);
+        fprintf(stderr, "Usage 1: %s <x>\n", argv[0]);
         exit(0);
     }
     secs = atoi(argv[1]);
