@@ -68,7 +68,7 @@ make
     ```
 
 ## Contributing
-Contributions are welcome! Feel free to submit issues or pull requests to improve this solver.
+Contributions are welcome! Feel free to submit issues or pull requests to improve this program.
 
 ## License
 This project is licensed under the MIT License. See `LICENSE` file for details.
